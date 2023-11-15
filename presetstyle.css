@@ -1,0 +1,76 @@
+
+/* Buttons style */
+.primary_btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.6rem 0.9rem;
+    font-weight: 500;
+    background-color: var(--primary);
+    color: var(--background);
+    cursor: pointer;
+    font-size: var(--btn-font-size);
+    outline: none;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .secondary_btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.6rem 0.9rem;
+    font-weight: 600;
+    background-color: var(--card);
+    cursor: pointer;
+    font-size: var(--btn-font-size);
+    outline: none;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .ternary_btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.6rem 0.9rem;
+    font-weight: 600;
+    
+    cursor: pointer;
+    font-size: var(--btn-font-size);
+    outline: none;
+    background-color: transparent;
+    border:none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+  }
+  .ternary_btn:hover,
+  .primary_btn:hover,
+  .secondary_btn:hover {
+    scale: 105%;
+  }
+  
+  .gradient {
+    height: fit-content;
+    width: 100%;
+    z-index: -1;
+    max-width: 640px;
+    background-image: radial-gradient(
+        at 27% 37%,
+        hsla(215, 98%, 61%, 1) 0px,
+        transparent 0%
+      ),
+      radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+      radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
+      radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
+      radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
+      radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
+      radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    position: fixed;
+    content: "";
+    width: 100%;
+    height: 100%;
+    filter: blur(100px) saturate(150%);
+    top: 80px;
+    opacity: 0.15;
+  }
+  

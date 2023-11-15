@@ -1,0 +1,209 @@
+/* Break Points */
+
+/* small screens */
+@media (min-width: 640px) {
+  .testimonial_section h2 {
+    width: 32rem;
+    font-size: x-large;
+  }
+  .team_prof_wrapper {
+    width: 95%;
+  }
+}
+
+/* medium screens */
+@media (min-width: 768px) {
+  :root {
+    --btn-font-size: small;
+  }
+  .main_header {
+    flex-direction: row;
+    padding: 0 1rem;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 0.5rem;
+  }
+  .main_header button {
+    display: flex;
+  }
+  .container {
+    width: 90%;
+  }
+  .hero_video,
+  .video_features {
+    height: 30rem;
+  }
+  .testimonial_section h2 {
+    width: 43rem;
+    font-size: x-large;
+  }
+  .team_prof_wrapper {
+    width: 95%;
+  }
+
+  .main_footer {
+    height: fit-content !important;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 0.5rem;
+  }
+  .main_footer > div {
+    padding: 0.5rem;
+  }
+
+  .main_footer div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .main_footer div:nth-child(2) {
+    flex-direction: row;
+    justify-content: space-around;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .main_footer div:nth-child(3) {
+    padding-left: 3rem;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  .main_footer div:nth-child(4) {
+    padding-left: 3rem;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 6;
+  }
+
+  .feature_journal_list_header {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    width: 100%;
+  }
+  .journal_list_wrapper > div {
+    width: 18rem;
+  }
+
+  .feature_journal_list_header div:nth-child(1) h2 {
+    font-size: xx-large;
+  }
+
+  .feature_journal_list_header div:nth-child(2) {
+    width: 30rem;
+  }
+  .journal_list_wrapper {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .journal_list_wrapper > div:nth-child(2) {
+    height: 28rem;
+  }
+
+  .all_journal_list > div {
+    height: 25rem !important;
+  }
+  .team_intro p{
+    font-size: large;
+  }
+}
+
+/* large screens */
+@media (min-width: 1024px) {
+  .main_header {
+    width: 90%;
+    padding: 0 2rem;
+    padding-bottom: 0.5rem;
+  }
+  .hero_section,
+  .feature_section,
+  .subscribe {
+    height: 70vh;
+    padding: 5rem 0;
+    align-items: center;
+    flex-direction: row;
+  }
+  .hero_heading_text_wrapper,
+  .feature_heading_text_wrapper,
+  .subscribe_heading_text_wrapper {
+    width: 50%;
+  }
+  .hero_heading_text_wrapper h1,
+  .feature_heading_text_wrapper h2,
+  .subscribe_heading_text_wrapper h2 {
+    font-size: 3rem;
+  }
+  .hero_video,
+  .video_features {
+    height: 95%;
+    width: 50%;
+  }
+  .subscribe_image {
+    height: 80%;
+    width: 50%;
+  }
+  .feature_section {
+    flex-direction: row-reverse;
+  }
+
+  .gallery_imgs_wrapper {
+    height: 20rem;
+    width: 95%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .gallery_imgs_wrapper img {
+    height: 20rem;
+  }
+  .team_prof_wrapper {
+    width: 80%;
+  }
+  .testimonial_section h2 {
+    width: 38rem;
+    font-size: x-large;
+  }
+  .main_footer {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .main_footer div:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .main_footer div:nth-child(3) {
+    grid-column-start: 4;
+    grid-column-end: 6;
+  }
+}
+/* extra large screens */
+@media (min-width: 1280px) {
+  .container {
+    width: 80%;
+  }
+  .hero_heading_text_wrapper h1,
+  .feature_heading_text_wrapper h2,
+  .gallery_heading_wrapper h2,
+  .subscribe_heading_text_wrapper h2 {
+    font-size: 3.5rem;
+  }
+  .gallery_imgs_wrapper {
+    width: 80%;
+  }
+  .journal_list_wrapper > div {
+    width: 20rem;
+  }
+}
+/* 2xl screens */
+@media (min-width: 1536px) {
+  .hero_heading_text_wrapper h1,
+  .feature_heading_text_wrapper h2,
+  .gallery_heading_wrapper h2,
+  .subscribe_heading_text_wrapper h2 {
+    font-size: 4rem;
+  }
+  .gallery_imgs_wrapper {
+    width: 75%;
+  }
+}
