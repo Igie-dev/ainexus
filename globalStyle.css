@@ -387,15 +387,15 @@ body {
   -webkit-backdrop-filter: blur(19.6px);
 }
 
-.journal_list_wrapper > div span h3 {
+.journal_list_wrapper  div span h4 {
   font-size: medium;
 }
-.journal_list_wrapper > div span a {
+.journal_list_wrapper  div span a {
   font-size: x-small;
   color: blue;
 }
 
-.journal_list_wrapper > div span p {
+.journal_list_wrapper  div span p {
   font-size: small;
 }
 
