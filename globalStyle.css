@@ -554,10 +554,6 @@ body {
   gap: 1rem !important;
 }
 
-.about_us p,
-h3 {
-  max-width: 50%;
-}
 
 .about_us h3 {
   margin-top: 3rem;

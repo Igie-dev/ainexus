@@ -176,6 +176,9 @@
     grid-column-start: 4;
     grid-column-end: 6;
   }
+  .about_us p,h3 {
+    max-width: 50%;
+  }
 }
 /* extra large screens */
 @media (min-width: 1280px) {
