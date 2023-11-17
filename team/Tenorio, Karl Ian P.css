@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  padding: 0 5rem;
+  background: transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  z-index: 100;
+}
+
+.container nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.container nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  transform: 0.03s;
+}
+
+.container nav ul li a :hover {
+  color: antiquewhite;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 5rem;
+}
+
+.section-1 ,  .section-2{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.content .section-1 h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+}
+
+.content .section-1 h3 {
+  font-size: 24px;
+  color: beige;
+  margin-bottom: 10px;
+}
+
+.content .section-1 p {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 50px;
+}
+
+.content .btn {
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: aqua;
+  border: 3px solid aqua;
+  background: transparent;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.03s;
+}
+
+.btn:hover {
+  background-color: aqua;
+  color: whitesmoke;
+}
+
+.section-2 {
+  width: 50%;
+  height: 100%;
+}
+.section-2 img {
+  width: 70%;
+  height: 60%;
+  object-fit: cover;
+}
